@@ -120,7 +120,7 @@ int main()
 
 	//iterator_test::iteratorTest();
 	{
-		//xl_210215::testMergeTwoList();
+		xl_210215::testMergeTwoList();
 		//operator_overload::testOperator();
 	}
 

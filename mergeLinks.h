@@ -15,9 +15,12 @@ namespace xl_210215 {
 		}
 
 		auto ptr = find(list1.begin(), list1.end(), meetVal);
-		while (ptr != list1.end()) {
-			newList.push_back(*ptr);
-			ptr++;
+		//while (ptr != list1.end()) {
+		//	newList.push_back(*ptr);
+		//	ptr++;
+		//}
+		if (ptr != list1.end()) {
+			newList.insert(newList.end(), ptr, list1.end());
 		}
 
 		return newList;

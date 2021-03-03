@@ -5,7 +5,7 @@
 
 using namespace std;
 
-namespace HCLInterview {
+namespace xl_210215 {
 	list<int> merge2List(const list<int>& list1, const list<int>& list2, int meetVal)
 	{
 		list<int> newList = list2;

@@ -14,6 +14,8 @@
 #include "mergeLinks.h"
 #include "operatorTest.h"
 
+#include "ifelseTest.h"
+
 //using std::cout;//using declarations
 //using std::cin;
 //using std::endl;
@@ -117,9 +119,16 @@ int main()
 	//xl02::test();
 
 	//iterator_test::iteratorTest();
+	{
+		//xl_210215::testMergeTwoList();
+		//operator_overload::testOperator();
+	}
 
-	HCLInterview::testMergeTwoList();
-	operator_overload::testOperator();
+	{
+
+		xl_210303::ifelseTest tst;
+		tst.test();
+	}
 
 	return 0;
 }
